@@ -1,0 +1,21 @@
+{
+  "name": "share-me",
+  "version": "1.0.0",
+  "description": "Easily share your contants by having a QR code for people to scan",
+  "main": "index.js",
+  "author": "Gift Nnko",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "server": "yarn workspace @share-me/server",
+    "web": "yarn workspace @share-me/web",
+    "mobile": "yarn workspace @share-me/mobile",
+    "shared": "yarn workspace @share-me/shared",
+    "start:server": "yarn server dev",
+    "start:mobile": "yarn mobile android",
+    "start:app": "yarn web dev"
+  }
+}

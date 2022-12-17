@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "typeRoots": [
+      "../../types"
+    ]
+  },
+  "references": [
+    {
+      "path": "../../tsconfig.json"
+    }
+  ]
+}
