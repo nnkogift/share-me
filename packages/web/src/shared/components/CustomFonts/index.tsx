@@ -12,9 +12,6 @@ import medium2 from "./fonts/Quicksand-Medium.woff2";
 import regular from "./fonts/Quicksand-Regular.woff";
 import regular2 from "./fonts/Quicksand-Regular.woff2";
 
-import light from "./fonts/Quicksand-Light.woff";
-import light2 from "./fonts/Quicksand-Light.woff2";
-
 
 const fonts = [
     {
@@ -60,7 +57,7 @@ const fonts = [
     {
         '@font-face': {
             'font-family ': 'Quicksand',
-            'src ': `url('${light2}') format('woff2'), url('${light}') format('woff')`,
+            'src ': `url('${regular2}') format('woff2'), url('${regular}') format('woff')`,
             'font-weight ': 300,
             'font-style ': "normal",
             'font-display ': "swap",
