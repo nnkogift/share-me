@@ -66,7 +66,6 @@ const fonts = [
 
 ]
 
-
 export default function CustomFonts() {
 
     return (
