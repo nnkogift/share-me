@@ -1,6 +1,6 @@
 import {MantineProvider, TypographyStylesProvider} from "@mantine/core";
 import CustomFonts from "./shared/components/CustomFonts";
-import AuthPage from "./modules/Auth";
+import Registration from "./modules/Registration";
 
 
 const theme = {
@@ -14,10 +14,9 @@ const theme = {
 function App() {
     return (
         <MantineProvider theme={theme}>
+            <CustomFonts/>
             <TypographyStylesProvider className="w-100 h-100">
-
-                <CustomFonts/>
-                <AuthPage/>
+                <Registration/>
             </TypographyStylesProvider>
         </MantineProvider>
     )
